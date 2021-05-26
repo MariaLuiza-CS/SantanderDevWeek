@@ -2,8 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/menu_notification"
+        android:id="@+id/item03"
         android:icon="@drawable/ic_baseline_notifications_none_24"
-        android:title="notification"
-        app:showAsAction="always" />
+        android:title="item03"
+        app:showAsAction="ifRoom" />
+
 </menu>

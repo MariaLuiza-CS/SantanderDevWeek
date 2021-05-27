@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -43,15 +43,27 @@
         android:id="@+id/txt_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginStart="5dp"
         android:text="@string/name_user"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_user_hello"
+        app:layout_constraintTop_toTopOf="@id/txt_user_hello"
+        app:layout_constraintBottom_toBottomOf="@id/txt_user_hello"/>
+
+    <TextView
+        android:id="@+id/txt_user_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/hello_user"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
     <TextView
-        android:id="@+id/txt_agenc"
+        android:id="@+id/txt_agency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -59,11 +71,11 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@id/txt_user"
-        app:layout_constraintTop_toBottomOf="@id/txt_user" />
+        app:layout_constraintStart_toStartOf="@id/txt_user_hello"
+        app:layout_constraintTop_toBottomOf="@id/txt_user_hello" />
 
     <TextView
-        android:id="@+id/txt_account"
+        android:id="@+id/txt_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -72,7 +84,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@id/txt_agenc"
+        app:layout_constraintStart_toEndOf="@id/txt_agency"
         app:layout_constraintTop_toBottomOf="@id/txt_user" />
 
     <com.google.android.material.card.MaterialCardView
@@ -85,7 +97,7 @@
         app:cardElevation="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_agenc">
+        app:layout_constraintTop_toBottomOf="@id/txt_agency">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -123,7 +135,7 @@
                 app:layout_constraintTop_toTopOf="@id/img_update" />
 
             <TextView
-                android:id="@+id/txt_saldo_valor"
+                android:id="@+id/txt_balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -143,7 +155,18 @@
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/txt_saldo_valor" />
+                app:layout_constraintTop_toBottomOf="@id/txt_balance" />
+
+            <TextView
+                android:id="@+id/txt_limite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/limite"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@id/txt_saldo_detail"
+                app:layout_constraintTop_toTopOf="@id/txt_saldo_detail"/>
 
             <View
                 android:id="@+id/view_grew"

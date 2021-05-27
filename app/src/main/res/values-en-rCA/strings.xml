@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SantanderDevWeek</string>
+    <string name="name_user">Eduarda</string>
+    <string name="txt_saldo_disponivel">Available balance</string>
+    <string name="saldo_limite">Balance + Limit</string>
+    <string name="ver_extrato">Bank statement</string>
+    <string name="pagar">Pay</string>
+    <string name="transferir">Transfer</string>
+    <string name="recarga">Recharge</string>
+    <string name="cartao">"Number card "</string>
+    <string name="hello_user">Hello,</string>
+</resources>

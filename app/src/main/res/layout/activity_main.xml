@@ -24,6 +24,7 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:contentDescription="@string/cd_logo_santander"
             android:src="@drawable/_8x48_ico_santander" />
 
     </androidx.appcompat.widget.Toolbar>
@@ -32,6 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/red_secundary"
+        android:contentDescription="@string/cd_auxiliar_layout"
         app:layout_constraintDimensionRatio="16:6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Olá, Eduarda"
+        android:text="@string/name_user"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Ag 2030"
+        android:text="@string/name_ag"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -66,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Cc 01097954-4"
+        android:text="@string/name_cc"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -94,6 +96,7 @@
                 android:id="@+id/img_update"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/cd_image_update"
                 android:src="@drawable/ic_baseline_update_24"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -102,6 +105,7 @@
                 android:id="@+id/img_expand"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/cd_image_expandir"
                 android:src="@drawable/ic_baseline_expand_less_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -111,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Saldo disponivel"
+                android:text="@string/txt_saldo_disponivel"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="@id/img_update"
@@ -123,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="R$ 1.324,64"
+                android:text="@string/valor_saldo"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -135,7 +139,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Saldo + Limite: R$ 2.324,64"
+                android:text="@string/saldo_limite"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +158,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Ver extrato"
+                android:text="@string/ver_extrato"
                 android:textColor="@color/red_secundary"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -185,6 +189,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:contentDescription="@string/cd_image_card"
                 android:src="@drawable/ic_baseline_credit_card_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -194,7 +199,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Pagar"
+                android:text="@string/pagar"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -223,6 +228,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:contentDescription="@string/cd_image_tranferir"
                 android:src="@drawable/ic_baseline_transform_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -232,7 +238,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Tranferir"
+                android:text="@string/transferir"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -260,6 +266,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:contentDescription="@string/cd_image_battery"
                 android:src="@drawable/ic_baseline_battery_charging_full_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -269,7 +276,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Recarga"
+                android:text="@string/recarga"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -299,7 +306,7 @@
                 android:id="@+id/txt_cartao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cartão final"
+                android:text="@string/cartao"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -311,7 +318,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="0033"
+                android:text="@string/numero_cartao"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -319,11 +326,11 @@
                 app:layout_constraintStart_toEndOf="@id/txt_cartao"
                 app:layout_constraintTop_toTopOf="parent" />
 
-
             <ImageView
                 android:id="@+id/img_down"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/cd_image_down"
                 android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/txt_cartao" />
@@ -332,39 +339,5 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <!--    <TextView-->
-    <!--        android:id="@+id/txt_name"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="150dp"-->
-    <!--        android:background="@color/red_secundary"-->
-    <!--        android:fontFamily="@font/open_sans"-->
-    <!--        android:paddingStart="10dp"-->
-    <!--        android:paddingTop="20dp"-->
-    <!--        android:text="Olá, Bocó \nAg 2030 Co 01097954-4"-->
-    <!--        android:textColor="@color/white"-->
-    <!--        android:textSize="20sp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@id/toolbar" />-->
-
-    <!--    <RelativeLayout-->
-    <!--        android:id="@+id/relative_layout"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:layout_constraintTop_toBottomOf="@id/txt_name">-->
-
-    <!--        <androidx.cardview.widget.CardView-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content">-->
-
-    <!--            <TextView-->
-    <!--                android:layout_width="match_parent"-->
-    <!--                android:layout_height="wrap_content"-->
-    <!--                android:text="Saldo Disponivel" />-->
-
-    <!--        </androidx.cardview.widget.CardView>-->
-
-
-    <!--    </RelativeLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

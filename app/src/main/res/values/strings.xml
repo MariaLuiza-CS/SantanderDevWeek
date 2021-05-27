@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">SantanderDevWeek</string>
+    <string name="name_user">Olá, Eduarda</string>
+    <string name="name_ag">Ag 2030</string>
+    <string name="name_cc">Cc 01097954-4</string>
+    <string name="txt_saldo_disponivel">Saldo disponivel</string>
+    <string name="valor_saldo">R$ 1.324,64</string>
+    <string name="saldo_limite">Saldo + Limite: R$ 2.324,64</string>
+    <string name="ver_extrato">Ver extrato</string>
+    <string name="pagar">Pagar</string>
+    <string name="transferir">Transferir</string>
+    <string name="recarga">Recarga</string>
+    <string name="cartao">Cartão final</string>
+    <string name="numero_cartao">0033</string>
+    <string name="cd_logo_santander">Logo Santander</string>
+    <string name="cd_auxiliar_layout">Auxiliar layout</string>
+    <string name="cd_image_update">image update</string>
+    <string name="cd_image_expandir">image expandir</string>
+    <string name="cd_image_card">image_card</string>
+    <string name="cd_image_tranferir">image tranferir</string>
+    <string name="cd_image_battery">image battery</string>
+    <string name="cd_image_down">image down</string>
 </resources>

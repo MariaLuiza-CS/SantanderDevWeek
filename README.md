@@ -6,7 +6,7 @@ A Santander Dev Week foi uma semana de imersão para acelerar a carreira de devs
 
 Desafio proposto durante o evento, para recriar o layout do aplicativo do Santander.
 
-O projeto foi feito usando o padrão arquitetural mvvm, componentes nativos do android e conceitos do Material Designer, além de contar com a integração do Firebase e a tradução para os idiomas português e inglês.
+O projeto foi feito usando o padrão arquitetural MVVM, componentes nativos do android e conceitos do Material Designer, além de contar com a integração do Firebase e a tradução para os idiomas português e inglês.
 
 Nesse layout é possivel ver a utilizacão de CardsViews, ToolBar personalizada, uso do ConstraintLayout, entre outros recursos. 
 

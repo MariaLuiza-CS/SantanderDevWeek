@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.santanderdevweek.R
 import com.example.santanderdevweek.data.Account
+import java.lang.RuntimeException
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         findAccountClient()
+
+        //Force a crash
+        //throw RuntimeException("Test Crash")
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

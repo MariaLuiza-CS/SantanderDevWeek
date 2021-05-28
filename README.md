@@ -6,13 +6,18 @@ A Santander Dev Week foi uma semana de imersão para acelerar a carreira de devs
 
 Desafio proposto durante o evento, para recriar o layout do aplicativo do Santander.
 
-Usando componentes nativos do android e conceitos do Material Designer, nesse layout é possivel ver a utilizacão de CardsViews, ToolBar personalizada, uso do ConstraintLayout, entre outros recursos. 
+O projeto foi feito usando o padrão arquitetural mvvm, componentes nativos do android e conceitos do Material Designer, além de contar com a integração do Firebase e a tradução para os idiomas português e inglês.
 
-## Layout
+Nesse layout é possivel ver a utilizacão de CardsViews, ToolBar personalizada, uso do ConstraintLayout, entre outros recursos. 
+
+## Layouts
 
  <p align="left">
         <img alt="Exemplo de IMC abaixo do peso"
-            src="https://github.com/MariaLuiza-CS/SantanderDevWeek/blob/master/screan_layout_photo.png" width="20%"
-            title="Layout do projeto" />
+            src="https://github.com/MariaLuiza-CS/SantanderDevWeek/blob/master/layout-pt.png" width="20%"
+            title="Layout do projeto em portugues" />
+         <img alt="Exemplo de IMC abaixo do peso"
+            src="https://github.com/MariaLuiza-CS/SantanderDevWeek/blob/master/layout-eng.png" width="20%"
+            title="Layout do projeto em ingles" />
 <p/>
 
